@@ -1,0 +1,12 @@
+.page {
+    padding: 15px 20px;
+}
+
+.block-1 {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    border-radius: 12px;
+}
