@@ -1,0 +1,47 @@
+.experience-info {
+    display: flex;
+    flex-direction: column;
+    width: 411px;
+}
+
+.experience-info__list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.experience-info__list-item {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    background: #FFF;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.experience-info__list-item.selected {
+    background: #28D979;
+    color: #FFF;
+}
+
+.experience-info__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.experience-info__period {
+    font-size: 8px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.experience-info__label {
+    padding: 2px 6px;
+    border-radius: 59px;
+    font-size: 8px;
+    line-height: 155%;
+    font-weight: 500;
+    color: #DDF163;
+}
