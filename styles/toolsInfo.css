@@ -1,0 +1,44 @@
+.tools-info {
+  width: 124px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tools-info__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.tools-info__list-item {
+  width: 76px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 16px 4px;
+  background-color: #fff;
+  position: relative;
+}
+
+.tools-info__label {
+  padding: 2px 6px;
+  border-radius: 59px;
+  background: #000;
+  color: #fff;
+  font-size: 5px;
+  line-height: 142%;
+  font-weight: 500;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tools-info__tools-list {
+}
+
+.tools-info__tools-list-item {
+}
+
+.tools-info__icon {
+}
