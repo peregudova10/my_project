@@ -3,6 +3,7 @@
   flex-direction: column;
   width: 411px;
   height: 359px;
+  gap: 16px;
 }
 
 .experience-info__list {

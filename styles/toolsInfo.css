@@ -2,6 +2,7 @@
   width: 124px;
   display: flex;
   flex-direction: column;
+  gap: 15px;
 }
 
 .tools-info__list {
@@ -35,9 +36,24 @@
 }
 
 .tools-info__tools-list {
+  display: flex;
+  gap: 16px 0px;
+  flex-wrap: wrap;
 }
 
 .tools-info__tools-list-item {
+  flex: 0 50%;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.tools-info__tools-list-item:nth-child(odd) {
+  justify-content: end;
+  padding-right: 8px;
+}
+.tools-info__tools-list-item:nth-child(even) {
+  justify-content: start;
+  padding-left: 8px;
 }
 
 .tools-info__icon {
