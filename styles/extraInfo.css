@@ -1,0 +1,52 @@
+.extra-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 267px;
+  height: 289px;
+  box-sizing: border-box;
+}
+
+.interests-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-sizing: border-box;
+}
+
+.interests-info__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.interests-info__list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 4px 10px;
+  border-radius: 10px;
+  background: #fff;
+  color: #000;
+  font-size: 10px;
+  line-height: 150%;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  background-color: #000;
+  color: #fff;
+}
+
+.contact-info__top {
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.contact-info__bottom {
+  font-size: 10px;
+  line-height: 150%;
+}

@@ -1,5 +1,6 @@
 .tools-info {
   width: 124px;
+  height: 359px;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -33,6 +34,10 @@
   top: -5px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.tools-info__label.selected {
+  width: 70%;
 }
 
 .tools-info__tools-list {

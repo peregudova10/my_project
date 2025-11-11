@@ -15,6 +15,11 @@
   margin-bottom: 20px;
 }
 
+.block-3 {
+  display: flex;
+  gap: 20px;
+}
+
 .card {
   padding: 12px;
   border-radius: 12px;
